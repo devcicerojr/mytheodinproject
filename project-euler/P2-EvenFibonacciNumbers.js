@@ -5,7 +5,7 @@ var current = 0;
 
 while(current < 4000000)
 {
-	var current = previous1 + previous2;
+	current = previous1 + previous2;
 	if(current % 2 === 0)
 	{
 		sum += current;
