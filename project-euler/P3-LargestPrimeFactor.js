@@ -5,7 +5,7 @@ var MaxMultPrime = function(value)
 		
 		if(value % x === 0)
 		{
-			console.log(x + " is multiple of " + value)
+			console.log(value + " is multiple of " + x)
 			return MaxMultPrime(value / x);
 		}
 	}
