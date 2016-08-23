@@ -2,7 +2,6 @@ var MaxMultPrime = function(value)
 {
 	for(var x=2; x < value; x++)
 	{
-		
 		if(value % x === 0)
 		{
 			console.log(value + " is multiple of " + x)
